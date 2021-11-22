@@ -1,0 +1,15 @@
+form {
+    text-align: right;
+}
+
+input {
+    width: 163px;
+}
+
+label {
+    color: black;
+}
+
+textarea {
+    vertical-align: top;
+}
