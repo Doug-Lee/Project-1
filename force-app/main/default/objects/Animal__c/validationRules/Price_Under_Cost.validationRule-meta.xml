@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Under_Cost</fullName>
+    <active>true</active>
+    <description>Price of an animal should never be below the cost.</description>
+    <errorConditionFormula>For_Sale_Price__c &lt;  Cost__c</errorConditionFormula>
+    <errorDisplayField>For_Sale_Price__c</errorDisplayField>
+    <errorMessage>The price of an animal should never be below cost.</errorMessage>
+</ValidationRule>

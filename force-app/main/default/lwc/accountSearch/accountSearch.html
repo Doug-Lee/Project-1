@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Account Searcher">
+        <lightning-input type="search" onchange={handleKeyChange} label="Search"></lightning-input>
+        <template if:true={accounts}>
+            <template for:each={accounts} for:item="acc">
+                <c-account-search-results key={acc.id} account={acc} ></c-account-search-results>
+            </template>
+        </template>
+    </lightning-card>
+</template>

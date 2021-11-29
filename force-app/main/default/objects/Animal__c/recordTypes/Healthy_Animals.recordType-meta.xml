@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Healthy_Animals</fullName>
+    <active>true</active>
+    <label>Healthy Animals</label>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Bird</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dog</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reptile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
