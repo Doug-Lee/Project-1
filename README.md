@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+# Project 1
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Description
+In this project we were tasked with creating a customer facing experience site for a business. I created a customer case deflection and service portal. Here customers can submit tickets or express interest in a product.
 
-## How Do You Plan to Deploy Your Changes?
+## Technology
+*Salesforce Platform
+*VSCode
+*Github
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Features
+*Web To Case Forms
+*Web To Lead Forms
 
-## Configure Your Salesforce DX Project
+Improvements
+*Create a searchable lightning knowledge base to answer commonly asked questions.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## License
+This project uses the following license: [MIT License](https://choosealicense.com/licenses/mit/).
